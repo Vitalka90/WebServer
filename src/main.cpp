@@ -17,10 +17,10 @@
 const char* ssid = "FRITZ!Box 7590 RF";
 const char* password = "deinemutter3";
 
-const char* githubApiUrl = "https://api.github.com/repos/kmeps4/Kme900_Auto_ESP32_S2/releases/latest";
+const char* githubApiUrl = "https://api.github.com/repos/kmeps4/Kme900_Auto_ESP32_S2/releases/latestf";
 
 // Create AsyncWebServer object on port 80
-AsyncWebServer server(80);
+AsyncWebServer server(801);
 
 void initSPIFFS() {
   if (!SPIFFS.begin(true)) {
